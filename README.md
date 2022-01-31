@@ -1,17 +1,17 @@
-# PancakeSwap Intro
+---
+description: >-
+  WolfSwap.finance is a decentralized finance AMM smart contract running on the
+  powerful Telos EVM.
+---
 
-{% hint style="info" %}
-Whole docs site in under construction now.\
-**Please always refer English page**, not regional language pages as they may be oujt of sync.\
-\--- 25th Jan, Chef Nina 🦆
-{% endhint %}
+# WolfSwap Intro
 
-![](<.gitbook/assets/masthead-twitter-3- (1).png>)
+![wolfswap.finance](.gitbook/assets/WolfSwap\_home.png)
 
 {% hint style="success" %}
-#### PancakeSwap helps you make the most out of your crypto in three ways:
+**WolfSwap helps you make the most out of your crypto in three ways:**
 
-#### Trade, Earn, and Win.
+**Trade, Earn, and Win.**
 {% endhint %}
 
 ## ↔️ Trade
@@ -20,30 +20,28 @@ Whole docs site in under construction now.\
 
 ### The people's choice
 
-PancakeSwap is the leading decentralized exchange on Binance Smart Chain, with the highest trading volumes in the market (sources: [1](https://www.coingecko.com/en/exchanges/decentralized) [2](https://coinmarketcap.com/rankings/exchanges/dex/)).
+WolfSwap is the leading decentralized exchange on the Telos EVM, with the highest trading volumes in the market.
 
-### Low fees
+### Lower fees
 
-Why pay more? PancakeSwap runs on Binance Smart Chain, a blockchain with much lower transaction costs than Ethereum or Bitcoin. \
-Trading fees are lower than other top decentralized exchanges too, so that's a double win for you!
+Why pay more? WolfSwap runs on the Telos EVM, a blockchain with stupid cheap transaction costs  that are much lower than Ethereum, Bitcoin, Binance Smart Chain, and many others.  Trading fees are lower than other top decentralized exchanges too, so that's a double win for you!
 
 ### Decentralized
 
-Trade directly from your wallet app. \
-Unlike centralized exchanges like Binance or Coinbase, PancakeSwap doesn’t hold your funds when you trade: **you have 100% ownership of your own crypto**.&#x20;
+Trade directly from your wallet app.  Unlike centralized exchanges like Binance or Coinbase, WolfSwap doesn’t hold your funds when you trade: **you have 100% ownership of your own crypto**.
 
 ## 💸 Earn
 
-> Earn CAKE and other tokens for free with super high interest rates.
+> Earn WOLF and other tokens for free with super high interest rates.
 
-### Earn tokens with Syrup Pools
+### Earn tokens with Lude Pools
 
-Stake CAKE, earn free tokens. It’s really that easy. \
-CAKE holders right now are earning tens of millions of USD worth of free tokens each week from major projects. New projects join the party every day, so you can earn more, for even longer.
+Stake WOLF, earn free tokens. It’s really that easy.\
+WOLF holders right now are earning tens of millions of USD worth of free tokens each week from major projects. New projects join the party every day, so you can earn more, for even longer.
 
-### Earn CAKE with Yield Farms
+### Earn WOLF with Yield Farms
 
-Stake LP tokens, earn CAKE. You take on a little more exposure to market fluctuations than with the Syrup Pools, but can earn higher APR to offset the risk.
+Stake LP tokens, earn WOLF. You take on a little more exposure to market fluctuations than with the Lude Pools, but can earn higher APR to offset the risk.
 
 ### Earn Trading Fees
 
@@ -51,41 +49,39 @@ No farm? No problem. Even if your trading pair isn’t supported on the Farms pa
 
 ## 🎲 Win
 
-> PancakeSwap makes making money fun.
+> WolfSwap makes making money fun.
 
-### Lottery&#x20;
+### Lottery
 
-**Millions of dollars** regularly go up for grabs on the PancakeSwap Lottery. \
+**Millions of dollars** regularly go up for grabs on the WolfSwap Lottery.\
 Join as many as **11,000 daily players** for your chance to win big!
 
-### NFT Collectibles&#x20;
+### NFT Collectibles
 
 Win collectible NFTs for participating in trading competitions and more fun & games.
 
 ### Prediction
 
-Win BNB if you can predict whether the BNB price will rise or fall.\
-New rounds every 5 minutes!\
+Win WOLF if you can predict whether the WOLF price will rise or fall.\
+New rounds every 5 minutes!
 
-
-## Is PancakeSwap safe?
+## Is WolfSwap safe?
 
 See for yourself:
 
-* Check out these PancakeSwap security audits:&#x20;
-  * [Certik’s security audit of PancakeSwap](https://www.certik.org/projects/pancakeswap) and [Certik's Shield insurance](https://shield.certik.foundation)
-  * [Slowmist's security audit of PancakeSwap](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20%20-%20PancakeSwap.pdf)
-  * [Slowmist's Auto-CAKE Pool security audit](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20-%20CakeVault.pdf)
-  * [Peckshield's Prediction V2 security audit](https://github.com/peckshield/publications/blob/master/audit\_reports/PeckShield-Audit-Report-PancakeSwap-PredictionV2-v1.0.pdf)
-* Transparent:
-  * We’re built on open-source software: our site and all our Smart Contracts are publicly visible for maximum transparency.&#x20;
-  * Our contracts are verified on BscScan so you know that what you see is what you get: [1](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [2](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#code) [3](https://bscscan.com/address/0xbcfccbde45ce874adcb698cc183debcf17952812) [4](https://bscscan.com/address/0x1b96b92314c44b159149f7e0303511fb2fc4774f#code) [5](https://bscscan.com/address/0x92E8CeB7eAeD69fB6E4d9dA43F605D2610214E68)&#x20;
+* Check out these WolfSwap security audits:
+  * xxxxxxx's security audit of WolfSwap&#x20;
+*   Transparent:
+
+    * We’re built on open-source software: our site and all our Smart Contracts are publicly visible for maximum transparency.
+    * Our contracts are verified on xxxxxxxxx so you know that what you see is what you get
+
+
 * Security best practices:
-  * The chefs use multisig for all contracts.
+  * The wolves use multisig for all contracts.
   * Our contracts’ time-locks give you peace of mind.
 
-
-
 **Sounds like fun?**\
-**Then get flipping!** 🐰 🥞\
-****
+**Then get to it!**
+
+***

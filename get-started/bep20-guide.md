@@ -1,31 +1,23 @@
-# Get BEP20 Tokens
+# Get TLOS Tokens
 
 ![](<../.gitbook/assets/docs masthead (10) (1).png>)
 
-The native tokens of Binance Smart Chain (BSC) are **BEP20**.
+WolfSwap uses TLOS to pay for gas fees incurred by making transactions on the Telos EVM. TLOS can be purchased in a number of ways:
 
-To do most things on BSC, you will need to pay gas, which comes in the form of BEP20 BNB.
+* If you do not have any crypto assets yet then use a centralized exchange such as [KuCoin](https://www.kucoin.com), [Gate.io](https://www.gate.io), [MEXC](https://www.mexc.com) or [Probit](https://www.probit.com)
+* If you have crypto assets on a different blockchain network (eg Ethereum or Binance) then you can transfer them onto the Telos EVM via a bridge.  Network bridging to Telos EVM is available through [Elkswap](https://app.elk.finance/#/elknet) or [Multichain](https://app.multichain.org).
+* On the [web-wallet](https://wallet.telos.net) or through one of the official portals listed on [telos.net](https://telos.net).&#x20;
 
-You will also need the BEP20 version of any token you want to trade, stake etc. on BSC.
+#### Option 1: Deposit Telos from Telos Native Account:
 
-You can go a few ways about converting your tokens to BEP20, but here are the ones we recommend:
+Read the official Telos instructions for depositing from Telos Native.  [Get Started](https://docs.telos.net/evm/getting-started/deposit-withdraw-and-send-tlos#depositing-tlos-to-evm-address)
 
-{% tabs %}
-{% tab title="🔒 SafePal" %}
-[**SafePal** ](https://safepal.io/download) - You don't need an account, or to register etc. Execute cross-chain swaps directly from your wallet.
+#### Option 2: Withdrawing TLOS from exchanges to any EVM address:&#x20;
 
-📖 [Here's a quick guide they made to help you out.](https://docs.safepal.io/safepal-app/cross-chain-swap-tutorial)
-{% endtab %}
+Read the official Telos instructions for depositing from partner Exchanges.&#x20;
 
-{% tab title="🌉 Binance Bridge" %}
-[**Binance Bridge**](https://www.binance.org/en/bridge) _\*\*_ - You don't need an account, or to register etc.
+{% embed url="https://www.youtube.com/watch?v=Nz2Ckks0oWE" %}
 
-📖 [Here's a quick guide they made to help you out.](https://docs.binance.org/smart-chain/guides/bridge-v2.html)
-{% endtab %}
+#### Option 3: Bridge Telos from other EVM chains
 
-{% tab title="💰 Binance.com" %}
-[**Binance.com**](https://github.com/pancakeswap/pancake-document/tree/255db0c7af28df2f9c1209daa5cdbd774490a666/get-started/www.binance.com) _\*\*_- You can withdraw tokens as BEP20 via your Binance account (if you have one). Bear in mind you need an account to do so.
-
-📖 [Here's a quick guide they made to help you out.](https://www.binance.com/en/support/faq/85a1c394ac1d489fb0bfac0ef2fceafd)
-{% endtab %}
-{% endtabs %}
+&#x20;[Get Started](https://app.multichain.org/#/router)

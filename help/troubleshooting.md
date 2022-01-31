@@ -72,7 +72,7 @@ OK, so you're really determined to fix this. We really don't recommend doing thi
 
 There currently isn't a simple way to solve this issue from the PancakeSwap website: you'll need to interact with the contract directly. You can add liquidity directly via the Router contract, while setting amountAMin to a small amount, then withdrawing all liquidity.
 
-### **Approve the LP contract**
+#### **Approve the LP contract**
 
 Head to the contract of the LP token you're trying to approve.\
 For example, here's the ETH/WBNB pair: [https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
@@ -82,7 +82,7 @@ For example, here's the ETH/WBNB pair: [https://bscscan.com/address/0x70d8929d04
    1. spender (address): enter the contract address of the LP token you're trying to interact with
    2. value (uint256): -1
 
-### Query "balanceOf"
+#### Query "balanceOf"
 
 1. Switch to **Read Contract.**
 2. In **5. balanceOf**, input your wallet address and hit **Query**.
@@ -90,7 +90,7 @@ For example, here's the ETH/WBNB pair: [https://bscscan.com/address/0x70d8929d04
 
 ![](<../.gitbook/assets/image (7).png>)
 
-### Add or Remove Liquidity
+#### Add or Remove Liquidity
 
 Head to the router contract: [https://bscscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract](https://bscscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract)
 
@@ -158,7 +158,7 @@ Please select "Receive WBNB" and retry.
 
 **If you got this error while trying to swap:**
 
-Please contact the project team of the token you're trying to swap. **** This issue must be resolved by the project team.
+Please contact the project team of the token you're trying to swap. \*\*\*\* This issue must be resolved by the project team.
 {% endtab %}
 
 {% tab title="Reason" %}
@@ -219,18 +219,14 @@ If you're trading tokens with Restorative Rebase like tau assets tDoge or tBTC, 
 
 You don't have enough SYRUP in your wallet to unstake from the CAKE-CAKE pool.
 
-{% tabs %}
-{% tab title="Solution 1" %}
 **Get at least as much SYRUP as the amount of CAKE that you’re trying to unstake.**
 
 1. Buy SYRUP on the exchange. If you want to unstake 100 CAKE, you need at least 100 SYRUP.
 2. Try unstaking again.
-{% endtab %}
 
-{% tab title="Solution 2" %}
 If that still fails, you can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
 
-1. Go to: [https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract ](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
+1. Go to: [https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
 2. Click **“Connect to Web3”** and connect your wallet. ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 3. In section **“4. emergencyWithdraw”**, enter "0" and click “Write”.
 
@@ -239,18 +235,14 @@ This will unstake your staked tokens and lose any uncollected CAKE yield.
 {% hint style="warning" %}
 **This will lose any yield that you haven’t harvested yet.**
 {% endhint %}
-{% endtab %}
 
-{% tab title="Reason" %}
 To stop this happening again, **don’t sell your SYRUP.** You still need it to unstake from the “Stake CAKE Earn CAKE” pool.
 
 This error has happened because you have sold or transferred SYRUP tokens. SYRUP is minted in a 1:1 ratio to CAKE when you stake in the CAKE-CAKE Syrup Pool. SYRUP must be burned at a 1:1 ratio to CAKE when calling leaveStaking (unstaking your CAKE from the pool), so if you don't have enough, you can't unstake from the pool.
 
 {% embed url="https://dashboard.tenderly.co/tx/binance/0x754e18ceea82acac256b49c2b7a81260f7f86dd5e56ee2e3cc1b6ac864c29a8e" %}
-
 ![](https://lh4.googleusercontent.com/KchAcnM6cpX2BotEGppAxPAnY4Xbona6yI6ZWg9FlUUBfPi\_YO9ulM1s6htXJVXMzEwl0Uxcvdk8o4yhI7ar5g0TRpLVFjkS4YLKL7FS8Z4uFqeC37sw-TIkrPr7BCZQVpuD-5jO)
-{% endtab %}
-{% endtabs %}
+{% endembed %}
 
 ### Out of Gas error
 
@@ -334,24 +326,24 @@ You might be able to claim your winnings directly from the contract. Follow the 
 {% tab title="Check if you can claim" %}
 First, check whether you should actually be able to claim from the round you played.
 
-1. [Go to the **** BscScan page of Prediction contract](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#readContract), and go to the Write tab
+1. [Go to the \*\*\*\* BscScan page of Prediction contract](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#readContract), and go to the Write tab
 2. Scroll down to “4. claimable”.
 3. Type in the round id you want to check under "epoch(uint256)”.
 4. Type in your wallet address under “user(address)”.
 5. Tap “Query”
 6. If a round is claimable, it will show “true”.
-7. If the result is "false". Please repeat the above steps and try with "19. refundable".&#x20;
+7. If the result is "false". Please repeat the above steps and try with "19. refundable".
 8. Note: ⬆️ If you see a round returns "false" on both "4. claimable" and "19. refundable", but it shows on the website, it's probably been claimed already and the website is lagging.
 {% endtab %}
 
 {% tab title="Claim from a round" %}
 How to claim
 
-1. [Go to the **** BscScan page of Prediction contract](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#writeContract), and go to the Write tab
+1. [Go to the \*\*\*\* BscScan page of Prediction contract](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#writeContract), and go to the Write tab
 2. Tap “🔴 Connect to Web3”
 3. Use MetaMask or WalletConnect to connect.
 4. Scroll down to “3. claim”
-5.  Type in the round number you want to claim in this format, including the \[] brackets: `[12345]`&#x20;
+5.  Type in the round number you want to claim in this format, including the \[] brackets: `[12345]`
 
     If you want to claim from multiple rounds together, separate the rounds with a comma like this: `[12345,12346,12347]`
 6. Tap “Write”
@@ -369,8 +361,6 @@ How to check the history of rounds you played
 6. Rounds you entered will show below in the first row. (after “uint256\[]:”)
 {% endtab %}
 {% endtabs %}
-
-
 
 ## **Other issues**
 
@@ -428,22 +418,22 @@ Cause unclear. Try these steps before trying again:
 
 ## **Issues with Profile**
 
-### Oops! We couldn't find any Pancake Collectibles in your wallet.&#x20;
+### Oops! We couldn't find any Pancake Collectibles in your wallet.
 
 We're investigating the logic behind this issue. Meanwhile please try the workaround.
 
 {% tabs %}
 {% tab title="Workaround 1" %}
-1. &#x20;Go to “Collectible” page, then come back to profile page.\
+1. Go to “Collectible” page, then come back to profile page.\
    If you can’t find the link, go to [https://pancakeswap.finance/collectibles](https://pancakeswap.finance/collectibles) directly.
-2. &#x20;Retry profile creation.
+2. Retry profile creation.
 {% endtab %}
 
 {% tab title="Workaround 2" %}
 Change the environment.
 
 * Clear the cache and retry.
-* Retry on different browser.&#x20;
+* Retry on different browser.
 * Retry on different wallet apps.
 * Retry on the different network (switch between Wi-Fi and cellular)
 {% endtab %}
@@ -471,10 +461,8 @@ Root cause: Network is unstable.
 
 You have to retry.
 
-1. &#x20;Delete whatever has been entered in the text field completely.&#x20;
-2. &#x20;Re-type username, then please wait for seconds.
-3. &#x20;If it doesn’t work, reload the page and retry again.
+1. Delete whatever has been entered in the text field completely.
+2. Re-type username, then please wait for seconds.
+3. If it doesn’t work, reload the page and retry again.
 {% endtab %}
 {% endtabs %}
-
-&#x20;

@@ -1,15 +1,15 @@
-# 🍯 Syrup Pools
+# 🍯 Lude Pools
 
-![Ahh, delicious](../../.gitbook/assets/masthead.png)
+![Ahh, delicious](<../../.gitbook/assets/Lude Pools.png>)
 
-### **What are Syrup Pools?**
+### **What are Lude Pools?**
 
-Syrup Pools are the simplest way to earn free tokens on PancakeSwap.\
-Stake CAKE, earn free tokens. It’s really that easy.
+Lude Pools are the simplest way to earn free tokens on WolfSwap.\
+Stake WOLF, earn free tokens. It’s really that easy.
 
-Some special pools let you stake other tokens besides CAKE, too!
+Some special pools let you stake other tokens besides WOLF, too!
 
-### **How can I use Syrup Pools?**
+### **How can I use Lude Pools?**
 
 {% content-ref url="syrup-pool-guide.md" %}
 [syrup-pool-guide.md](syrup-pool-guide.md)
@@ -36,6 +36,3 @@ Reach out via [the application form](https://docs.pancakeswap.finance/contact-us
 [Auto CAKE Syrup Pool](../../code/smart-contracts/cakevault.md)
 
 ### &#x20;<a href="#docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86" id="docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86"></a>
-
-
-
