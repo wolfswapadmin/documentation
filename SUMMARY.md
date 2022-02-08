@@ -38,8 +38,8 @@
 ## Tokenomics
 
 * [WOLF](tokenomics/cake/README.md)
-  * [CAKE Tokenomics](tokenomics/cake/cake-tokenomics.md)
-  * [Controlling CAKE supply](tokenomics/cake/controlling-cake-supply.md)
+  * [WOLF Tokenomics](tokenomics/cake/cake-tokenomics.md)
+  * [Controlling WOLF supply](tokenomics/cake/controlling-cake-supply.md)
 
 ## Developers <a href="#code" id="code"></a>
 

@@ -1,8 +1,5 @@
 # Analytics
 
+![](../../.gitbook/assets/wolf\_stats.png)
 
-
-![](<../../.gitbook/assets/image (9) (2).png>)
-
-View PancakeSwap's native analytics site here: [https://pancakeswap.info](https://pancakeswap.info)
-
+View WolfSwap's native analytics site here: [https://wolfswap.finance](https://wolfswap.finance)
