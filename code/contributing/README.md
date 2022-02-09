@@ -4,7 +4,7 @@ description: Thank you for expressing your interest in contributing to WolfSwap!
 
 # Contributing
 
-![](../.gitbook/assets/WolfSwap\_home.png)
+![](../../.gitbook/assets/WolfSwap\_home.png)
 
 WolfSwap is an open-source project. If you want to contribute to the project, this section is here to guide you through your first steps with the WolfSwap team 🥞
 

@@ -15,7 +15,6 @@
   * [NFT Market Applications](contact-us/nft-market-applications.md)
   * [Customer Support](contact-us/customer-support.md)
   * [Social Accounts & Communities](contact-us/telegram.md)
-* [Brand & Logos](brand.md)
 * [Roadmap](roadmap.md)
 
 ## Products
@@ -42,13 +41,13 @@
 
 ## Developers <a href="#code" id="code"></a>
 
-* [Contributing](code/contributing.md)
+* [Contributing](code/contributing/README.md)
 * [Bug Bounty](code/bug-bounty.md)
 * [Smart Contracts](code/smart-contracts/README.md)
   * [WolfSwap Exchange](code/smart-contracts/pancakeswap-exchange/README.md)
     * [Factory v2](code/smart-contracts/pancakeswap-exchange/factory-v2.md)
     * [Router v2](code/smart-contracts/pancakeswap-exchange/router-v2.md)
-  * [Main Staking/Syrup Pool/MasterChef Contract](code/smart-contracts/main-staking-masterchef-contract.md)
+  * [Main Staking/Lude Pool/MasterWolf Contract](code/smart-contracts/main-staking-masterchef-contract.md)
   * [Auto WOLF Lude Pool (LudeVault)](code/smart-contracts/cakevault.md)
 
 ## Hiring

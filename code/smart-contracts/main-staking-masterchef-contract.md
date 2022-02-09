@@ -1,8 +1,7 @@
-# Main Staking/Syrup Pool/MasterChef Contract
+# Main Staking/Lude Pool/MasterWolf Contract
 
 ## Contract info
 
-**Contract name:** MasterChef\
-**Contract address:** 0x73feaa1eE314F8c655E354234017bE2193C9E24E
+**Contract name:** MasterWolf\
+**Contract address:**&#x20;
 
-View the [PancakeSwap: Main Staking Contract on BscScan](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e).
