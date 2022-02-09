@@ -22,4 +22,4 @@ By reducing the amount of WOLF made per block, we slow inflation. As time progre
 
 ### Deflationary mechanisms
 
-WolfSwap has a burn address available for use to control inflation.  As liquidity flows into the pools and farms, the wolves will consider controlled burns as needed.  Check the [**WOLF Tokenomics** ](cake-tokenomics.md)page for details on present and upcoming deflationary mechanisms.
+WolfSwap has a burn address available for use to control inflation.  As liquidity flows into the pools and farms, the wolves will consider manual controlled burns as needed.  Check the [**WOLF Tokenomics** ](cake-tokenomics.md)page for details on present and upcoming deflationary mechanisms.

@@ -1,6 +1,6 @@
 # Get TLOS Tokens
 
-![](<../.gitbook/assets/docs masthead (10) (1).png>)
+![](<../.gitbook/assets/Get Coins.png>)
 
 WolfSwap uses TLOS to pay for gas fees incurred by making transactions on the Telos EVM. TLOS can be purchased in a number of ways:
 

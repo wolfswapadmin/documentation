@@ -4,7 +4,7 @@ description: How to "unstick" any pending transactions that are stuck in your Me
 
 # Fixing Stuck Pending Transactions on MetaMask
 
-![](<../.gitbook/assets/docs masthead (12) (1).png>)
+![](../.gitbook/assets/Teloscan.png)
 
 If your transaction is stuck on pending in Metamask, and the “Cancel” button isn’t helping, you might need to use this method to clear your backlog.
 
@@ -36,7 +36,7 @@ We’re now going to find the transaction that’s stuck, and make a note of the
 
 ![](https://lh4.googleusercontent.com/xKBEnt5a62c5Wzg\_MCLIbVUWuL4fws1ohBAX9LAkGS71vslHk7QuMF24jAfkAdmsLunPVfT9c3FxCmGar5z7jNZnd4WMgzQsoxxbYw1Lp59Az5kG72COn0JblFXktHbmgMnF1LeY)
 
-6\. Go back to the top page of MetaMask. In the “Assets” tab, find the token type of your stuck transaction (in this case, CAKE).
+6\. Go back to the top page of MetaMask. In the “Assets” tab, find the token type of your stuck transaction (in this case, WOLF).
 
 ![](https://lh5.googleusercontent.com/9qVjhK1kEKDL8l4TTdOFo4o547PDIIeQpCCY18gPyaUFJrpFbyYhMfBQ1CRzjjrllgrcqVbwkhxKCZBNlIad8J1yCpMVhsBKjIAcwfsQHQb7jnl2RD2ufQU-zNEn2Hn2g4LGvYDU)
 
@@ -52,11 +52,11 @@ Now we’re going to make a new transaction to replace the stuck one. We’ll cu
 
 ![](<../.gitbook/assets/image (9).png>)
 
-8\. Create a new transaction to replace your stuck transaction. This time around, increase the **Transaction Fee**. Here we’ve increased it from 9 to 20. This will make it more likely for  your transaction to be added to a block.
+8\. Create a new transaction to replace your stuck transaction. This time around, increase the **Transaction Fee**. Here we’ve increased it from 9 to 20. This will make it more likely for your transaction to be added to a block.
 
 ![](<../.gitbook/assets/image (10).png>)
 
-9\. On the confirmation page, make sure your Gas Price is now at your new, higher amount.&#x20;
+9\. On the confirmation page, make sure your Gas Price is now at your new, higher amount.
 
 10\. Find the **CUSTOM NONCE** entry and change the nonce to the number you wrote down in step 7. Now click Confirm.
 
@@ -68,4 +68,4 @@ Now we’re going to make a new transaction to replace the stuck one. We’ll cu
 
 12\. Your completed transaction should show at the top of your Activity list. If it still says “Pending” in orange you’ll need to wait a little longer, or try the process again with an even higher transaction fee (gas price).
 
-Since no wallet can create two transactions of the same nonce, if the replacement transaction you make is successful, your stuck transaction will be canceled.\
+Since no wallet can create two transactions of the same nonce, if the replacement transaction you make is successful, your stuck transaction will be canceled.\\

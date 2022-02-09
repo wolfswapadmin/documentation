@@ -1,10 +1,10 @@
 # Smart Contracts
 
-This page provides links or locations for PancakeSwap's smart contracts.
+This page provides links or locations for WolfSwap's smart contracts.
 
 ## Main contracts
 
-The following links will take you to the BscScan page for PancakeSwap's main smart contracts.
+The following links will take you to the TeloScan page for WolfSwap's main smart contracts.
 
 * [PancakeSwap: Main Staking Contract/MasterChef](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e)
 * [PancakeSwap: Factory v2](https://bscscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73)
@@ -12,7 +12,7 @@ The following links will take you to the BscScan page for PancakeSwap's main sma
 * [PancakeSwap: Lottery v2](https://bscscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c)
 * [PancakeSwap: Prediction v2](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda)
 * Others:
-  * [Farms Contracts](./#farms-contracts)&#x20;
+  * [Farms Contracts](./#farms-contracts)
   * [IFO Contracts](./#ifo-contracts)
 
 ## Farms contracts

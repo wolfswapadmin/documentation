@@ -10,11 +10,11 @@ We have broken the help topic down into sections to help you find what you're af
 
 ### Troubleshooting Errors
 
-The Troubleshooting Errors page has a collection of errors users may run into while using PancakeSwap. It shows the problem with both a solution to the problem, and a reason explaining why the problem happened.
+The Troubleshooting Errors page has a collection of errors users may run into while using WolfSwap. It shows the problem with both a solution to the problem, and a reason explaining why the problem happened.
 
 ### General FAQ
 
-The General FAQ page answers the common questions we get from PancakeSwap users. The answers to these questions give advice, an explanation, or a link to a useful resource.
+The General FAQ page answers the common questions we get from WolfSwap users. The answers to these questions give advice, an explanation, or a link to a useful resource.
 
 ### Other Guides
 
@@ -22,4 +22,4 @@ There are also a number of guides in the help topic that will walk you through t
 
 ## Seeking support
 
-PancakeSwap doesn't have a dedicated support service. Instead, if you find yourself with a problem that has no answer here, you can ask for help on [WolfSwap's Telegram channel](https://t.me/wolfswapdefi). For your safety, make sure you read the notice about scams if it's your first time on our Telegram.
+WolfSwap doesn't have a dedicated support service. Instead, if you find yourself with a problem that has no answer here, you can ask for help on [WolfSwap's Telegram channel](https://t.me/wolfswapdefi). For your safety, make sure you read the notice about scams if it's your first time on our Telegram.

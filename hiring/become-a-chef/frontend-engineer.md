@@ -10,7 +10,7 @@
 ### Your Responsibilities
 
 * Design, scope, and estimate complex frontend products/upgrades
-* Envision and develop features to help grow PancakeSwap
+* Envision and develop features to help grow WolfSwap
 * Enthusiastically collaborate with a small team to plan projects at the task level
 * Collaborate with cross-functional partners on all aspects of product development
 * Identify and advocate for team-wide areas of improvement and best practices
@@ -33,4 +33,4 @@
 
 ### How to apply
 
-Email Hiring@pancakeswap.com with your resume
+Email hiring@wolfswap.finance with your resume

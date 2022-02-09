@@ -84,11 +84,11 @@ To connect MetaMask to WolfSwap follow the steps below.
 
 1. Visit the [WolfSwap website](https://wolfswap.finance). In the top right corner you'll see the **Connect** button. Click it.
 
-![](<../.gitbook/assets/image (164) (3) (3) (2).png>)
+![](<../.gitbook/assets/connect button.png>)
 
 1. A window will appear asking you to choose a wallet to connect to. Click **MetaMask** (it's the top option on the list).
 
-![](<../.gitbook/assets/image (87).png>)
+![](../.gitbook/assets/connect\_wallet.png)
 
 ### Resources
 

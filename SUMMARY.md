@@ -27,7 +27,6 @@
   * [How to Add/Remove Liquidity](products/pancakeswap-exchange/liquidity-guide.md)
 * [🚜 C\*ke Farming](products/yield-farming/README.md)
   * [How to Use Farms](products/yield-farming/how-to-use-farms.md)
-  * [How to Use Farms with BscScan](products/yield-farming/how-to-use-farms-with-bscscan.md)
 * [🍯 Lude Pools](products/syrup-pool/README.md)
   * [How to Stake in Lude Pools](products/syrup-pool/syrup-pool-guide.md)
   * [Auto WOLF Lude Pool](products/syrup-pool/auto-compounding.md)
@@ -43,8 +42,7 @@
 
 ## Developers <a href="#code" id="code"></a>
 
-* [Contributing](code/contributing/README.md)
-  * [Codebase Overview](code/contributing/codebase-overview.md)
+* [Contributing](code/contributing.md)
 * [Bug Bounty](code/bug-bounty.md)
 * [Smart Contracts](code/smart-contracts/README.md)
   * [WolfSwap Exchange](code/smart-contracts/pancakeswap-exchange/README.md)

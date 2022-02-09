@@ -1,6 +1,6 @@
 # 🚜 C\*ke Farming
 
-![](<../../.gitbook/assets/docs masthead (1) (2).png>)
+![](../../.gitbook/assets/coke\_farms.png)
 
 C\*ke Farms allow users to earn WOLF while supporting WolfSwap by staking LP Tokens.
 
@@ -35,13 +35,13 @@ The **Farm Base APR** is calculated according to the farm multiplier and the tot
 
 On top of that, farmers receive **LP rewards** for providing liquidity. Here's an example of calculating **LP rewards**:
 
-![](https://lh4.googleusercontent.com/rJswz2qvCNTcODcClHxqlLpanSLsfbGtVw75MMPicBN1iKTKCuEYlPuoFAqskoy24DB9JBmATWb8dk3WmY1\_BFDZoS94sWTBZhZrcnG711rC8ltDXPR3gdl8D50eWq\_cfiBriKcl)
+![](../../.gitbook/assets/farm\_reward.png)
 
-In the WBNB/BUSD pair above, we see these values:
+In the WOLF/TLOS pair above, we see these values:
 
-**Liquidity:** $387.42M\
-**Volume 24H:** $96.97M\
-**Volume 7D:** 709.73M
+**Liquidity:** $xxxM\
+**Volume 24H:** $xxxM\
+**Volume 7D:** xxxM
 
 * Calculate yearly fees
   * Use the 24H volume to calculate the **fee share** of liquidity providers in the pool (based on the 0.17% trading fee structure):\

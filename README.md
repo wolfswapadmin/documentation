@@ -36,8 +36,7 @@ Trade directly from your wallet app.  Unlike centralized exchanges like Binance 
 
 ### Earn tokens with Lude Pools
 
-Stake WOLF, earn free tokens. It’s really that easy.\
-WOLF holders right now are earning tens of millions of USD worth of free tokens each week from major projects. New projects join the party every day, so you can earn more, for even longer.
+Stake WOLF, earn free tokens. It’s really that easy.  WOLF holders right now are earning tens of millions of USD worth of free tokens each week from major projects. New projects join the party every day, so you can earn more, for even longer.
 
 ### Earn WOLF with Yield Farms
 
@@ -47,20 +46,20 @@ Stake LP tokens, earn WOLF. You take on a little more exposure to market fluctua
 
 No farm? No problem. Even if your trading pair isn’t supported on the Farms page, you can still earn trading fees when you stake your tokens in Liquidity Pools (LPs).
 
-## 🎲 Win
+## 🎲 Win - Coming Soon
 
 > WolfSwap makes making money fun.
 
 ### Lottery
 
 **Millions of dollars** regularly go up for grabs on the WolfSwap Lottery.\
-Join as many as **11,000 daily players** for your chance to win big!
+Join many **daily players** for your chance to win big!
 
-### NFT Collectibles
+### NFT Collectibles - Coming Soon
 
 Win collectible NFTs for participating in trading competitions and more fun & games.
 
-### Prediction
+### Prediction - Coming Soon
 
 Win WOLF if you can predict whether the WOLF price will rise or fall.\
 New rounds every 5 minutes!
@@ -69,19 +68,14 @@ New rounds every 5 minutes!
 
 See for yourself:
 
+* The WolfSwap team has completed a KYC DOX session with the Telos Foundation team. &#x20;
 * Check out these WolfSwap security audits:
   * xxxxxxx's security audit of WolfSwap&#x20;
-*   Transparent:
-
-    * We’re built on open-source software: our site and all our Smart Contracts are publicly visible for maximum transparency.
-    * Our contracts are verified on xxxxxxxxx so you know that what you see is what you get
-
-
+* Transparent:
+  * We’re built on open-source software: our site and all our Smart Contracts are publicly visible for maximum transparency.
+  * Our contracts are verified on xxxxxxxxx so you know that what you see is what you get
 * Security best practices:
   * The wolves use multisig for all contracts.
   * Our contracts’ time-locks give you peace of mind.
 
-**Sounds like fun?**\
-**Then get to it!**
-
-***
+**Sounds like fun?  Then get to it!**

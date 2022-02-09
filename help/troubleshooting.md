@@ -4,7 +4,7 @@ description: Common error messages. Use the sidebar ➡️to jump to the error y
 
 # Troubleshooting Errors
 
-![](<../.gitbook/assets/docs masthead (16).png>)
+![](../.gitbook/assets/wolf\_stats.png)
 
 Sometimes you may find yourself facing a problem that doesn't have a clear solution. These troubleshooting tips may help you solve problems you run into.
 
@@ -12,9 +12,9 @@ Sometimes you may find yourself facing a problem that doesn't have a clear solut
 
 ### **INSUFFICIENT\_OUTPUT\_AMOUNT**
 
-> The transaction cannot succeed due to error: PancakeRouter: INSUFFICIENT\_OUTPUT\_AMOUNT. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: WolfRouter: INSUFFICIENT\_OUTPUT\_AMOUNT. This is probably an issue with one of the tokens you are swapping.
 >
-> the transaction cannot succeed due to error: execution reverted: pancakerouter: insufficient\_output\_amount.
+> the transaction cannot succeed due to error: execution reverted: wolfrouter: insufficient\_output\_amount.
 
 You're trying to swap tokens, but your slippage tolerance is too low or liquidity is too low.
 
@@ -24,7 +24,7 @@ You're trying to swap tokens, but your slippage tolerance is too low or liquidit
 2. Try trading a smaller amount at one time.
 3. Increase your slippage tolerance:
    1. Tap the settings icon on the liquidity page.
-   2. Increase your slippage tolerance a little and try again. ![](<../.gitbook/assets/image (9) (4) (2) (4).png>)
+   2. Increase your slippage tolerance a little and try again. ![](../.gitbook/assets/Liquidity.png)
 4. Lastly, try inputting an amount with fewer decimal places.
 {% endtab %}
 
@@ -33,15 +33,15 @@ You're trying to swap tokens, but your slippage tolerance is too low or liquidit
 
 That means there isn't enough of one of the tokens you're trying to swap in the Liquidity Pool: it's probably a small-cap token that few people are trading.
 
-However, there's also the chance that you're trying to trade a scam token which cannot be sold. In this case, PancakeSwap isn't able to block a token or return funds.
+However, there's also the chance that you're trying to trade a scam token which cannot be sold. In this case, WolfSwap isn't able to block a token or return funds.
 {% endtab %}
 {% endtabs %}
 
 ### **INSUFFICIENT\_A\_AMOUNT or INSUFFICIENT\_B\_AMOUNT**
 
-> Fail with error 'PancakeRouter: INSUFFICIENT\_A\_AMOUNT'\
+> Fail with error 'WolfRouter: INSUFFICIENT\_A\_AMOUNT'\
 > or\
-> Fail with error 'PancakeRouter: INSUFFICIENT\_B\_AMOUNT'
+> Fail with error 'WolfRouter: INSUFFICIENT\_B\_AMOUNT'
 
 You're trying to add/remove liquidity from a liquidity pool (LP), but there isn't enough of one of the two tokens in the pair.
 
@@ -54,7 +54,7 @@ Still doesn't work?
 1. Tap the settings icon on the liquidity page.
 2. Increase your slippage tolerance a little and try again.
 
-![](<../.gitbook/assets/image (9) (4).png>)
+![](../.gitbook/assets/Liquidity.png)
 {% endtab %}
 
 {% tab title="Reason" %}
@@ -70,12 +70,14 @@ It might be the case that prices are updating too fast when and your slippage to
 {% tab title="Solution for nerds" %}
 OK, so you're really determined to fix this. We really don't recommend doing this unless you know what you're doing.
 
-There currently isn't a simple way to solve this issue from the PancakeSwap website: you'll need to interact with the contract directly. You can add liquidity directly via the Router contract, while setting amountAMin to a small amount, then withdrawing all liquidity.
+There currently isn't a simple way to solve this issue from the WolfSwap website: you'll need to interact with the contract directly. You can add liquidity directly via the Router contract, while setting amountAMin to a small amount, then withdrawing all liquidity.
 
 #### **Approve the LP contract**
 
 Head to the contract of the LP token you're trying to approve.\
-For example, here's the ETH/WBNB pair: [https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
+For example, here's the ETH/TLOS pair:&#x20;
+
+
 
 1. Select **Write Contract**, then **Connect to Web3** and connect your wallet. ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 2. In **section "1. approve",** approve the LP token for the router by entering
@@ -92,7 +94,7 @@ For example, here's the ETH/WBNB pair: [https://bscscan.com/address/0x70d8929d04
 
 #### Add or Remove Liquidity
 
-Head to the router contract: [https://bscscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract](https://bscscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract)
+Head to the router contract:&#x20;
 
 1. Select **Write Contract** and **Connect to Web3** as above.
 2. Find **addLiquidity** or **removeLiquidity** (whichever one you're trying to do)
@@ -110,27 +112,27 @@ This can cause very high slippage, and can cause the user to lose some funds if 
 {% endtab %}
 {% endtabs %}
 
-### PancakeRouter: EXPIRED
+### WolfRouter: EXPIRED
 
-> The transaction cannot succeed due to error: PancakeRouter: EXPIRED. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: WolfRouter: EXPIRED. This is probably an issue with one of the tokens you are swapping.
 
 Try again, but confirm (sign and broadcast) the transaction as soon as you generate it.
 
 This happened because you started making a transaction, but you didn't sign and broadcast it until it was past the deadline. That means you didn't hit "Confirm" quickly enough.
 
-### Pancake: K
+### Wolf: K
 
-> The transaction cannot succeed due to error: Pancake: K. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: Wolf: K. This is probably an issue with one of the tokens you are swapping.
 
 Try modifying the amount on “To” field. Therefore putting "(estimated)" symbol on “From”. Then initiate the swap immediately.
 
-![](<../.gitbook/assets/Pancake-K-Solution (2).png>)
+![](../.gitbook/assets/exchange.png)
 
 This usually happen when you are trying to swap a token with its own fee.
 
-### Pancake: TRANSFER\_FAILED
+### Wolf: TRANSFER\_FAILED
 
-> The transaction cannot succeed due to error: execution reverted: Pancake: TRANSFER\_FAILED.
+> The transaction cannot succeed due to error: execution reverted: Wolf: TRANSFER\_FAILED.
 
 Make sure you have 30% more tokens in your wallet than you intend to trade, or try to trade a lower amount. If you want to sell the maximum possible, try 70% or 69% instead of 100%.\
 Caused by the design of Restorative Rebase tokens like tDoge or tBTC.\
@@ -152,9 +154,9 @@ Try trading a smaller amount, or increase slippage tolerance via the settings ic
 
 {% tabs %}
 {% tab title="Solution" %}
-**If you got this error while removing liquidity from a BNB pair:**
+**If you got this error while removing liquidity from a TLOS pair:**
 
-Please select "Receive WBNB" and retry.
+Please select "Receive WTLOS" and retry.
 
 **If you got this error while trying to swap:**
 
@@ -162,7 +164,7 @@ Please contact the project team of the token you're trying to swap. \*\*\*\* Thi
 {% endtab %}
 
 {% tab title="Reason" %}
-**This issue (while swapping) is caused by tokens which have hard-coded the V1 PancakeSwap router into their contract.**
+**This issue (while swapping) is caused by tokens which have hard-coded the V1 WolfSwap router into their contract.**
 
 While this practice is ill-advised at best, the reason for these projects having done this appears to be due to their tokenomics, in which each purchase sends a % of the token to LPs.
 
@@ -170,7 +172,7 @@ The projects affected will likely not work with the V2 router: they will most li
 
 We recommend that any projects which created such tokens should also make efforts to prevent their users from adding them to V2 LP.
 
-The up-to-date router address is [https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)
+The up-to-date router address is <>
 {% endtab %}
 {% endtabs %}
 
@@ -211,34 +213,34 @@ If you're trading tokens with Restorative Rebase like tau assets tDoge or tBTC, 
 {% endtab %}
 {% endtabs %}
 
-## **Issues with Syrup Pools**
+## **Issues with Lude Pools**
 
-### BEP20: burn amount exceeds balance
+### TLOS: burn amount exceeds balance
 
-> Fail with error 'BEP20: burn amount exceeds balance'
+> Fail with error 'TLOS: burn amount exceeds balance'
 
-You don't have enough SYRUP in your wallet to unstake from the CAKE-CAKE pool.
+You don't have enough LUDE in your wallet to unstake from the WOLF-WOLF pool.
 
-**Get at least as much SYRUP as the amount of CAKE that you’re trying to unstake.**
+**Get at least as much LUDE as the amount of WOLF that you’re trying to unstake.**
 
-1. Buy SYRUP on the exchange. If you want to unstake 100 CAKE, you need at least 100 SYRUP.
+1. Buy LUDE on the exchange. If you want to unstake 100 WOLF, you need at least 100 LUDE.
 2. Try unstaking again.
 
 If that still fails, you can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
 
-1. Go to: [https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
+1. Go to:&#x20;
 2. Click **“Connect to Web3”** and connect your wallet. ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 3. In section **“4. emergencyWithdraw”**, enter "0" and click “Write”.
 
-This will unstake your staked tokens and lose any uncollected CAKE yield.
+This will unstake your staked tokens and lose any uncollected WOLF yield.
 
 {% hint style="warning" %}
 **This will lose any yield that you haven’t harvested yet.**
 {% endhint %}
 
-To stop this happening again, **don’t sell your SYRUP.** You still need it to unstake from the “Stake CAKE Earn CAKE” pool.
+To stop this happening again, **don’t sell your LUDE.** You still need it to unstake from the “Stake WOLF, Earn WOLF” pool.
 
-This error has happened because you have sold or transferred SYRUP tokens. SYRUP is minted in a 1:1 ratio to CAKE when you stake in the CAKE-CAKE Syrup Pool. SYRUP must be burned at a 1:1 ratio to CAKE when calling leaveStaking (unstaking your CAKE from the pool), so if you don't have enough, you can't unstake from the pool.
+This error has happened because you have sold or transferred LUDE tokens. LUDE is minted in a 1:1 ratio to WOLF when you stake in the WOLF-WOLF Lude Pool. LUDE must be burned at a 1:1 ratio to LUDE when calling leaveStaking (unstaking your WOLF from the pool), so if you don't have enough, you can't unstake from the pool.
 
 {% embed url="https://dashboard.tenderly.co/tx/binance/0x754e18ceea82acac256b49c2b7a81260f7f86dd5e56ee2e3cc1b6ac864c29a8e" %}
 ![](https://lh4.googleusercontent.com/KchAcnM6cpX2BotEGppAxPAnY4Xbona6yI6ZWg9FlUUBfPi\_YO9ulM1s6htXJVXMzEwl0Uxcvdk8o4yhI7ar5g0TRpLVFjkS4YLKL7FS8Z4uFqeC37sw-TIkrPr7BCZQVpuD-5jO)
@@ -254,7 +256,7 @@ You have set a low gas limit when trying to make a transaction.
 {% tab title="Solution" %}
 Try manually increasing the **gas limit** (not gas price!) in your wallet before signing the transaction.
 
-A limit of 200000 is usually enough.
+A limit of 1000 is usually enough.
 
 ![](<../.gitbook/assets/image (2).png>)
 
@@ -268,9 +270,9 @@ Your wallet estimates that the gas limit is too low, so the function call runs o
 {% endtab %}
 {% endtabs %}
 
-### BEP20: transfer amount exceeds allowance
+### TLOS: transfer amount exceeds allowance
 
-> Fail with error 'BEP20: transfer amount exceeds allowance'
+> Fail with error 'TLOS: transfer amount exceeds allowance'
 
 {% tabs %}
 {% tab title="Solution" %}
@@ -284,11 +286,11 @@ This happens when you set a limit on your spend allowance when you first approve
 {% endtab %}
 {% endtabs %}
 
-### BEP20: transfer amount exceeds balance
+### TLOS: transfer amount exceeds balance
 
-> Fail with error 'BEP20: transfer amount exceeds balance'
+> Fail with error 'TLOS: transfer amount exceeds balance'
 
-You're probably trying to unstake from a Syrup Pool with low rewards in it. Solution below.
+You're probably trying to unstake from a Lude Pool with low rewards in it. Solution below.
 
 If not, you may be trying to send tokens that you don't have in your wallet (for example, trying to send a token that is already assigned to a pending transaction). In this case, just make sure you have the tokens you're trying to use.
 
@@ -298,8 +300,8 @@ Firstly,[ let the team know](../contact-us/telegram.md) which pool you're trying
 
 You can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
 
-1. Find the contract address of the Syrup Pool you're trying to unstake from. You can find it in your wallet's transaction log.
-2. Go to [https://bscscan.com/](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) and in the search bar, enter the contract address.
+1. Find the contract address of the Lude Pool you're trying to unstake from. You can find it in your wallet's transaction log.
+2. Go to https://teloscan.com/ and in the search bar, enter the contract address.
 3. Select **Write Contract.**
 4. Click **“Connect to Web3”** and connect your wallet.![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 5. In section **“4. emergencyWithdraw”,** enter "0" and click “Write”.
@@ -312,157 +314,13 @@ This will unstake your staked tokens and lose any uncollected yield.
 {% endtab %}
 
 {% tab title="Reason" %}
-This error tends to appear when you're trying to unstake from an old Syrup Pool, but there aren't enough rewards in the pool left for you to harvest when withdrawing. This causes the transaction to fail.
-{% endtab %}
-{% endtabs %}
-
-## **Issues with Prediction**
-
-**Can't claim winnings from a prediction round on site?**
-
-You might be able to claim your winnings directly from the contract. Follow the steps in the 3 tabs below.
-
-{% tabs %}
-{% tab title="Check if you can claim" %}
-First, check whether you should actually be able to claim from the round you played.
-
-1. [Go to the \*\*\*\* BscScan page of Prediction contract](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#readContract), and go to the Write tab
-2. Scroll down to “4. claimable”.
-3. Type in the round id you want to check under "epoch(uint256)”.
-4. Type in your wallet address under “user(address)”.
-5. Tap “Query”
-6. If a round is claimable, it will show “true”.
-7. If the result is "false". Please repeat the above steps and try with "19. refundable".
-8. Note: ⬆️ If you see a round returns "false" on both "4. claimable" and "19. refundable", but it shows on the website, it's probably been claimed already and the website is lagging.
-{% endtab %}
-
-{% tab title="Claim from a round" %}
-How to claim
-
-1. [Go to the \*\*\*\* BscScan page of Prediction contract](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#writeContract), and go to the Write tab
-2. Tap “🔴 Connect to Web3”
-3. Use MetaMask or WalletConnect to connect.
-4. Scroll down to “3. claim”
-5.  Type in the round number you want to claim in this format, including the \[] brackets: `[12345]`
-
-    If you want to claim from multiple rounds together, separate the rounds with a comma like this: `[12345,12346,12347]`
-6. Tap “Write”
-7. Confirm on wallet
-{% endtab %}
-
-{% tab title="Check rounds you played" %}
-How to check the history of rounds you played
-
-1. Go to BscScan page of Prediction contract.
-2. Scroll down to “8. getUserRounds”.
-3. Type in your wallet address under “user(address)”.
-4. Set “cursor(uint256)" to 0 and “size(uint256)" to 1000.
-5. Tap “Query”
-6. Rounds you entered will show below in the first row. (after “uint256\[]:”)
+This error tends to appear when you're trying to unstake from an old Lude Pool, but there aren't enough rewards in the pool left for you to harvest when withdrawing. This causes the transaction to fail.
 {% endtab %}
 {% endtabs %}
 
 ## **Other issues**
 
-### Provider Error
-
-> Provider Error\
-> No provider was found
-
-This happens when you try to connect via a browser extension like MetaMask or Binance Chain Wallet, but you haven’t installed the extension.
-
-{% tabs %}
-{% tab title="Solution" %}
-Install the official browser extension to connect, or read our guide on [how to connect a wallet to PancakeSwap](https://docs.pancakeswap.finance/get-started/connection-guide).
-{% endtab %}
-{% endtabs %}
-
 ### Unsupported Chain ID
 
-Switch your chain to Binance Smart Chain. Check your wallet's documentation for a guide if you need help.
+Switch your chain to the Telos Native Chain (ID 40). Check your wallet's documentation for a guide if you need help.
 
-### Issues buying SAFEMOON and similar tokens
-
-To trade SAFEMOON, you must click on the settings icon and **set your slippage tolerance to 12% or more.**\
-This is because **SafeMoon taxes a 10% fee on each transaction**:
-
-* 5% fee = redistributed to all existing holders
-* 5% fee = used to add liquidity
-
-This is also why you might not receive as much of the token as you expect when you purchase.\
-Read more on [How to Buy Safe Moon](https://community.trustwallet.com/t/how-to-buy-safemoon/155742).
-
-### Internal JSON-RPC errors
-
-> "MetaMask - RPC Error: Internal JSON-RPC error. estimateGas failed removeLiquidityETHWithPermitSupportingFeeOnTransferTokens estimateGas failed removeLiquidityETHWithPermit "
-
-Happens when trying to remove liquidity on some tokens via Metamask. Root cause is still unknown. Try using an alternative wallet.
-
-> Internal JSON-RPC error. { "code": -32000, "message": "insufficient funds for transfer" } - Please try again.
-
-You don't have enough BNB to pay for the transaction fees. You need more BEP-20 network BNB in your wallet.
-
-### Error: \[ethjs-query]
-
-> Error: \[ethjs-query] while formatting outputs from RPC '{"value":{"code":-32603,"data":{"code":-32000,"message":"transaction underpriced"}}}"
-
-Increase the gas limit for the transaction in your wallet. Check your wallet's documentation to learn how to increase gas limit.
-
-> Swap failed: Error: \[ethjs-query] while formatting outputs from RPC '{"value":{"code":-32603,"data":{"code":-32603,"message":"handle request error"}}}'
-
-Cause unclear. Try these steps before trying again:
-
-1. Increase gas limit
-2. Increase slippage
-3. Clear cache
-
-## **Issues with Profile**
-
-### Oops! We couldn't find any Pancake Collectibles in your wallet.
-
-We're investigating the logic behind this issue. Meanwhile please try the workaround.
-
-{% tabs %}
-{% tab title="Workaround 1" %}
-1. Go to “Collectible” page, then come back to profile page.\
-   If you can’t find the link, go to [https://pancakeswap.finance/collectibles](https://pancakeswap.finance/collectibles) directly.
-2. Retry profile creation.
-{% endtab %}
-
-{% tab title="Workaround 2" %}
-Change the environment.
-
-* Clear the cache and retry.
-* Retry on different browser.
-* Retry on different wallet apps.
-* Retry on the different network (switch between Wi-Fi and cellular)
-{% endtab %}
-{% endtabs %}
-
-### Checking username keeps spinning
-
-There are two possible causes.
-
-1. You have multiple wallets installed on the browser.
-2. Network issue.
-
-{% tabs %}
-{% tab title="Solution 1" %}
-Root cause: You have multiple wallets installed on the browser.\
-\
-It may make a conflict between wallets. This is out of PancakeSwap's control and we can do nothing.
-
-1. Have only single wallet installed on browser, remove the others.
-2. Reconnect the wallet and retry setting username again.
-{% endtab %}
-
-{% tab title="Solution 2" %}
-Root cause: Network is unstable.
-
-You have to retry.
-
-1. Delete whatever has been entered in the text field completely.
-2. Re-type username, then please wait for seconds.
-3. If it doesn’t work, reload the page and retry again.
-{% endtab %}
-{% endtabs %}
